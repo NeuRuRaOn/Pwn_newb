@@ -15,7 +15,7 @@ int main()
 	return 0;
 }
 ~~~
-## 
+## rbp,rsp
 rbp : stack base pointer - stack 맨 밑에, stack은 kernel을 침범하지 않기 위해 큰 주소값에서 작은 주소값으로 자란다
 rsp : stack pointer 위쪽에,
 prologue: 다음 함수를 호출할 때 ret 값 저장 후 원래 rbp 값을 저장
